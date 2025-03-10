@@ -47,7 +47,7 @@ function Header() {
       </div>
       {
         counter ?<div  style={{width:"100%", height:"100vh" }}
-        className={`bg-[#F5F3F3] absolute  top-0  right-full flex flex-col p-3  items-center gap-3 transform transition-transform duration-500 ease-in-out 
+        className={`bg-[#F5F3F3] absolute top-0  right-full flex flex-col p-3  items-center gap-3  z-50  transition-transform duration-500 ease-in-out 
       ${counter2?"translate-x-0":"translate-x-full"}`}>
           <p style={{textAlign:"right", fontWeight:"bold"}} onClick={()=> setCounter(!counter)}>X</p>
          
